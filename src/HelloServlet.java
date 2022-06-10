@@ -12,6 +12,7 @@ import java.io.PrintWriter;
  * Time : 11:24 AM
  * Project Name : javaEE
  **/
+
 @WebServlet(urlPatterns = "/hello")
 public class HelloServlet extends HttpServlet {
     @Override
